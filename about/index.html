@@ -34,6 +34,18 @@
 
 
 <body>
+
+<script type="text/javascript">
+    var OriginTitile = document.title,
+        st;
+    document.addEventListener("visibilitychange", function () {
+        document.hidden ? (document.title = "~������~", clearTimeout(st)) : (document.title =
+            "(๑•̀ㅂ•́) ✧Hello～", st = setTimeout(function () {
+                document.title = OriginTitile
+            }, 3e3))
+    })
+</script>
+
     <header class="navbar-fixed">
     <nav id="headNav" class="bg-color nav-transparent">
         <div id="navContainer" class="nav-wrapper container">
@@ -785,7 +797,38 @@
             </div>
         </div>
     </div>
+    <div class="card">
+      <div class="card-content">
+        <div class="card-content article-card-content">
+            <div class="title center-align" data-aos="zoom-in-up">
+                <i class="fa fa-address-book"></i>&nbsp;&nbsp;myCV
+            </div>
+            <div id="articleContent" data-aos="fade-up">
+                <script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>
+            </div>
+        </div>
+      </div>
+   </div>
 </main>
+
 
     <footer class="page-footer bg-color">
     
@@ -905,7 +948,7 @@
     </div>
 </footer>
 
-<div class="progress-bar"></div>
+<div class="progress-bar"></div>    
 
 
     <!-- 搜索遮罩框 -->
@@ -980,6 +1023,6 @@ $(function () {
     <script src="/libs/instantpage/instantpage.js" type="module"></script>
     
 
-<script src="/blog/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/","tagMode":false});</script></body>
+</body>
 
 </html>

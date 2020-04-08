@@ -34,6 +34,18 @@
 
 
 <body>
+
+<script type="text/javascript">
+    var OriginTitile = document.title,
+        st;
+    document.addEventListener("visibilitychange", function () {
+        document.hidden ? (document.title = "~������~", clearTimeout(st)) : (document.title =
+            "(๑•̀ㅂ•́) ✧Hello～", st = setTimeout(function () {
+                document.title = OriginTitile
+            }, 3e3))
+    })
+</script>
+
     <header class="navbar-fixed">
     <nav id="headNav" class="bg-color nav-transparent">
         <div id="navContainer" class="nav-wrapper container">
@@ -805,7 +817,7 @@
     </div>
 </footer>
 
-<div class="progress-bar"></div>
+<div class="progress-bar"></div>    
 
 
     <!-- 搜索遮罩框 -->
@@ -880,6 +892,6 @@ $(function () {
     <script src="/libs/instantpage/instantpage.js" type="module"></script>
     
 
-<script src="/blog/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/","tagMode":false});</script></body>
+</body>
 
 </html>
