@@ -524,6 +524,23 @@ $(function () {
     <script src="/libs/lightGallery/js/lightgallery-all.min.js"></script>
     <script src="/js/matery.js"></script>
 
+   <!-- 天气接口控件 mohen  2020.04.09 -->
+    
+      <!-- mohen -->
+<script type="text/javascript">
+  WIDGET = {FID: 'KhBImjiM0u'}
+</script>
+ <!-- <script type="text/javascript" src="https://apip.weatherdt.com/float/static/js/r.js?v=1111"></script> -->
+<script type="text/javascript>
+  // 只在桌面端网页启动特效
+  var windowWidth = $(window).width();
+  if (windowWidth > 768) {
+    document.write('<script type="text/javascript" src="https://apip.weatherdt.com/float/static/js/r.js?v=1111"><\/script>');
+  }
+ </script>
+
+    
+
     <!-- Baidu Analytics -->
 
     <!-- Baidu Push -->
@@ -561,23 +578,6 @@ $(function () {
     
     
     <script src="/libs/instantpage/instantpage.js" type="module"></script>
-    
-
-    <!-- 天气接口控件 mohen  2020.04.09 -->
-    
-      <!-- mohen -->
-<script type="text/javascript">
-  WIDGET = {FID: 'KhBImjiM0u'}
-</script>
- <!-- <script type="text/javascript" src="https://apip.weatherdt.com/float/static/js/r.js?v=1111"></script> -->
-<script type="text/javascript>
-  // 只在桌面端网页启动特效
-  var windowWidth = $(window).width();
-  if (windowWidth > 768) {
-    document.write('<script type="text/javascript" src="https://apip.weatherdt.com/float/static/js/r.js?v=1111"><\/script>');
-  }
- </script>
-
     
 </body>
 <script type="text/javascript">
