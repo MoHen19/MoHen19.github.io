@@ -3,11 +3,11 @@
   <title>墨痕</title>
   
   <subtitle>mohen</subtitle>
-  <link href="/atom.xml" rel="self"/>
+  <link href="/mohen19/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="http://mohen19.gitee.io/mohen19/"/>
   <updated>2020-04-08T13:29:40.380Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>http://mohen19.gitee.io/mohen19/</id>
   
   <author>
     <name>墨痕</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>test</title>
-    <link href="http://yoursite.com/2020/04/08/test/"/>
-    <id>http://yoursite.com/2020/04/08/test/</id>
+    <link href="http://mohen19.gitee.io/mohen19/2020/04/08/test/"/>
+    <id>http://mohen19.gitee.io/mohen19/2020/04/08/test/</id>
     <published>2020-04-08T13:29:40.000Z</published>
     <updated>2020-04-08T13:29:40.380Z</updated>
     
@@ -45,8 +45,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2020/04/08/hello-world/"/>
-    <id>http://yoursite.com/2020/04/08/hello-world/</id>
+    <link href="http://mohen19.gitee.io/mohen19/2020/04/08/hello-world/"/>
+    <id>http://mohen19.gitee.io/mohen19/2020/04/08/hello-world/</id>
     <published>2020-04-08T12:37:54.769Z</published>
     <updated>2020-04-08T12:37:54.769Z</updated>
     
