@@ -1179,6 +1179,23 @@ $(function () {
     
     <script src="/libs/instantpage/instantpage.js" type="module"></script>
     
+	
+	<!-- 天气接口控件  洪卫 shw2018 add 2019.09.09 -->
+	
+		<!-- 墨痕 2020.04.11 六 雨 杨中 -->
+<script type="text/javascript">
+	WIDGET = {FID: 'KKhZuTTVjj'}
+</script>
+<!-- <script type="text/javascript" src="https://apip.weatherdt.com/float/static/js/r.js?v=1111"></script> -->
+<script type="text/javascript"> 
+//只在桌面版网页启用特效 
+	var windowWidth = $(window).width(); 
+	if (windowWidth > 768) { 
+		document.write('<script type="text/javascript" src="https://apip.weatherdt.com/float/static/js/r.js?v=1111"><\/script>'); 
+	} 
+</script>
+	
+
 </body>
 <script type="text/javascript">
     var OriginTitile = document.title,
@@ -1190,10 +1207,10 @@ $(function () {
             }, 3e3))
     })
 </script>
-<!-- mohen -->
-<script type="text/javascript">
-  WIDGET = {FID: 'KhBImjiM0u'}
+<!-- 墨痕 2020.04.11 六 雨 杨中 -->
+<!-- <script type="text/javascript">
+	WIDGET = {FID: 'KKhZuTTVjj'}
 </script>
-<script type="text/javascript" src="https://apip.weatherdt.com/float/static/js/r.js?v=1111"></script>
+<script type="text/javascript" src="https://apip.weatherdt.com/float/static/js/r.js?v=1111"></script> -->
 
 </html>
