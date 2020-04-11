@@ -96,11 +96,25 @@
   <li class="hide-on-med-and-down nav-item">
     
     <a href="/about" class="waves-effect waves-light">
+
       
       <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
       
       <span>关于</span>
+      <i class="fas fa-chevron-down" aria-hidden="true" style="zoom: 0.6;"></i>
     </a>
+    <ul class="sub-nav menus_item_child ">
+      
+      <li>
+        <a href="/photo">
+          
+          <i class="fas fa-photo" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>Photo</span>
+        </a>
+      </li>
+      
+    </ul>
     
   </li>
   
@@ -195,12 +209,26 @@
         
         <li class="m-nav-item">
 	  
-		<a href="/about" class="waves-effect waves-light">
+		<a href="javascript:;">
 			
-			    <i class="fa-fw fas fa-user-circle"></i>
+				<i class="fa-fw fas fa-user-circle"></i>
 			
 			关于
+			<span class="m-icon"><i class="fas fa-chevron-right"></i></span>
 		</a>
+            <ul  style="background:  ;" >
+              
+                <li>   
+				
+                  <a href="/photo " style="margin-left:75px";>
+				  
+				   <i class="fa fas fa-photo" style="position: absolute;left:50px" ></i>
+			      
+		          <span>Photo</span>
+                  </a>
+                </li>
+               
+            </ul>
           
         </li>
         
@@ -504,6 +532,32 @@
 
 
 
+
+<!-- 雪花特效 -->
+    
+        <script type="text/javascript">
+            var windowWidth = $(window).width();
+            if (windowWidth > 768) {
+                if(new Date().getHours()%2==0){
+                document.write('<script type="text/javascript" src="/js/xuehuapiaoluo.js"><\/script>');
+                }
+            }
+        </script>
+    
+
+<!-- 樱花特效 -->
+   
+        <script type="text/javascript">
+            var windowWidth = $(window).width();
+            if (windowWidth > 768) {
+                if(new Date().getHours()%2==1){
+                document.write('<script type="text/javascript" src="/js/sakura.js"><\/script>');
+                }               
+            }
+        </script>
+    
+
+
 <main class="content">
 
     
@@ -556,7 +610,7 @@
             preload: 'auto',
             volume: Number('0.7'),
             video: {
-                url: 'video',
+                url: '/video/IMG_2328.MP4',
                 pic: '',
                 thumbnails: ''
             }
