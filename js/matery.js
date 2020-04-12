@@ -105,6 +105,7 @@ $(function () {
             // 启用字幕
             subHtmlSelectorRelative: true
         });
+	
 
         // progress bar init
         const progressElement = window.document.querySelector('.progress-bar');
