@@ -18,12 +18,12 @@ jQuery(document).ready(function($) {
         });
         $("body").append($i);
         $i.animate({
-             "top": y - 180,
-             "opacity": 0
+            "top": y - 180,
+            "opacity": 0
         },
         1500,
         function() {
-             $i.remove();
+            $i.remove();
         });
     });
 });
